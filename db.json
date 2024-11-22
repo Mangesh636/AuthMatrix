@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "status": "Active",
+      "role": "Admin",
+      "lastLogin": "2024-11-20T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "status": "Inactive",
+      "role": "Manager",
+      "lastLogin": "2024-11-18T16:30:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Alex Brown",
+      "email": "alexbrown@example.com",
+      "status": "Active",
+      "role": "User",
+      "lastLogin": "2024-11-19T10:45:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Emily White",
+      "email": "emilywhite@example.com",
+      "status": "Active",
+      "role": "Admin",
+      "lastLogin": "2024-11-21T13:00:00Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": ["Read", "Write", "Delete", "Manage Roles", "Manage Users"]
+    },
+    {
+      "id": "2",
+      "name": "Manager",
+      "permissions": ["Read", "Write", "Manage roles"]
+    },
+    {
+      "id": "3",
+      "name": "User",
+      "permissions": ["Read"]
+    }
+  ],
+  "permissions": [
+    { "id": "1", "name": "Read" },
+    { "id": "2", "name": "Write" },
+    { "id": "3", "name": "Delete" },
+    { "id": "4", "name": "Manage Roles" },
+    { "id": "5", "name": "Manage Users" }
+  ],
+  "logs": [
+    {
+      "id": "log1",
+      "userId": "1",
+      "action": "Created Role",
+      "details": "Admin role created with full permissions",
+      "timestamp": "2024-11-19T14:00:00Z"
+    },
+    {
+      "id": "log2",
+      "userId": "2",
+      "action": "Assigned Role",
+      "details": "Assigned 'Manager' role to Jane Smith",
+      "timestamp": "2024-11-20T09:30:00Z"
+    },
+    {
+      "id": "log3",
+      "userId": "3",
+      "action": "Modified Permissions",
+      "details": "Changed 'User' role permissions to include 'Write'",
+      "timestamp": "2024-11-18T15:00:00Z"
+    },
+    {
+      "id": "log4",
+      "userId": "4",
+      "action": "Deactivated User",
+      "details": "Deactivated 'Jane Smith' user account",
+      "timestamp": "2024-11-21T16:00:00Z"
+    }
+  ]
+}
