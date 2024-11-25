@@ -30,7 +30,6 @@ import {
   TableRow,
 } from "../ui/table";
 import { Button } from "../ui/button";
-import { Input } from "../ui/input";
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -73,18 +72,6 @@ export const DataTable = <TData, TValue>({
   return (
     <div>
       <div className="flex items-center py-4">
-        {/* Search */}
-        <Input
-          placeholder="Filter by Role name..."
-          value={
-            (table.getColumn("roleName")?.getFilterValue() as string) ?? ""
-          }
-          onChange={(event) =>
-            table.getColumn("roleName")?.setFilterValue(event.target.value)
-          }
-          className="max-w-44 md:max-w-sm"
-        />
-
         {/* Filter */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -109,10 +96,10 @@ export const DataTable = <TData, TValue>({
                   >
                     {column.id === "id"
                       ? "Sr.No"
-                      : column.id === "name"
-                        ? "Permission Name"
-                        : column.id === "roleName"
-                          ? "Role Name"
+                      : column.id === "user_name"
+                        ? "User Name"
+                        : column.id === "user_role"
+                          ? "User Name"
                           : column.id}
                   </DropdownMenuCheckboxItem>
                 );
