@@ -1,90 +1,576 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "email": "johndoe@example.com",
-      "status": "Active",
-      "role": "Admin",
-      "lastLogin": "2024-11-20T09:00:00Z"
+      "id": 1,
+      "name": "Aaron Bailey",
+      "avatarFallback": "AB",
+      "email": "aaron.bailey@example.com",
+      "role": "Engineer",
+      "status": "Active"
     },
     {
-      "id": "2",
-      "name": "Jane Smith",
-      "email": "janesmith@example.com",
-      "status": "Inactive",
+      "id": 2,
+      "name": "Bella Cooper",
+      "avatarFallback": "BC",
+      "email": "bella.cooper@example.com",
+      "role": "Designer",
+      "status": "Inactive"
+    },
+    {
+      "id": 3,
+      "name": "Caleb Davis",
+      "avatarFallback": "CD",
+      "email": "caleb.davis@example.com",
       "role": "Manager",
-      "lastLogin": "2024-11-18T16:30:00Z"
+      "status": "Active"
     },
     {
-      "id": "3",
-      "name": "Alex Brown",
-      "email": "alexbrown@example.com",
-      "status": "Active",
-      "role": "User",
-      "lastLogin": "2024-11-19T10:45:00Z"
-    },
-    {
-      "id": "4",
-      "name": "Emily White",
-      "email": "emilywhite@example.com",
-      "status": "Active",
+      "id": 4,
+      "name": "Daisy Evans",
+      "avatarFallback": "DE",
+      "email": "daisy.evans@example.com",
       "role": "Admin",
-      "lastLogin": "2024-11-21T13:00:00Z"
+      "status": "Inactive"
+    },
+    {
+      "id": 5,
+      "name": "Evan Foster",
+      "avatarFallback": "EF",
+      "email": "evan.foster@example.com",
+      "role": "Super Admin",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "name": "Fiona Green",
+      "avatarFallback": "FG",
+      "email": "fiona.green@example.com",
+      "role": "Engineer",
+      "status": "Inactive"
+    },
+    {
+      "id": 7,
+      "name": "George Harris",
+      "avatarFallback": "GH",
+      "email": "george.harris@example.com",
+      "role": "Designer",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "name": "Hannah James",
+      "avatarFallback": "HJ",
+      "email": "hannah.james@example.com",
+      "role": "Manager",
+      "status": "Inactive"
+    },
+    {
+      "id": 9,
+      "name": "Ian Kelly",
+      "avatarFallback": "IK",
+      "email": "ian.kelly@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "name": "Julia Lee",
+      "avatarFallback": "JL",
+      "email": "julia.lee@example.com",
+      "role": "Super Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 11,
+      "name": "Kevin Miller",
+      "avatarFallback": "KM",
+      "email": "kevin.miller@example.com",
+      "role": "Engineer",
+      "status": "Active"
+    },
+    {
+      "id": 12,
+      "name": "Luna Nelson",
+      "avatarFallback": "LN",
+      "email": "luna.nelson@example.com",
+      "role": "Designer",
+      "status": "Inactive"
+    },
+    {
+      "id": 13,
+      "name": "Michael Owens",
+      "avatarFallback": "MO",
+      "email": "michael.owens@example.com",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "id": 14,
+      "name": "Natalie Peterson",
+      "avatarFallback": "NP",
+      "email": "natalie.peterson@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 15,
+      "name": "Oliver Quinn",
+      "avatarFallback": "OQ",
+      "email": "oliver.quinn@example.com",
+      "role": "Super Admin",
+      "status": "Active"
+    },
+    {
+      "id": 16,
+      "name": "Paige Roberts",
+      "avatarFallback": "PR",
+      "email": "paige.roberts@example.com",
+      "role": "Engineer",
+      "status": "Inactive"
+    },
+    {
+      "id": 17,
+      "name": "Ryan Stewart",
+      "avatarFallback": "RS",
+      "email": "ryan.stewart@example.com",
+      "role": "Designer",
+      "status": "Active"
+    },
+    {
+      "id": 18,
+      "name": "Sophia Turner",
+      "avatarFallback": "ST",
+      "email": "sophia.turner@example.com",
+      "role": "Manager",
+      "status": "Inactive"
+    },
+    {
+      "id": 19,
+      "name": "Thomas Underwood",
+      "avatarFallback": "TU",
+      "email": "thomas.underwood@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 20,
+      "name": "Uma Vaughn",
+      "avatarFallback": "UV",
+      "email": "uma.vaughn@example.com",
+      "role": "Super Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 21,
+      "name": "Victor White",
+      "avatarFallback": "VW",
+      "email": "victor.white@example.com",
+      "role": "Engineer",
+      "status": "Active"
+    },
+    {
+      "id": 22,
+      "name": "Wendy Xanders",
+      "avatarFallback": "WX",
+      "email": "wendy.xanders@example.com",
+      "role": "Designer",
+      "status": "Inactive"
+    },
+    {
+      "id": 23,
+      "name": "Xander Young",
+      "avatarFallback": "XY",
+      "email": "xander.young@example.com",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "id": 24,
+      "name": "Yara Zane",
+      "avatarFallback": "YZ",
+      "email": "yara.zane@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 25,
+      "name": "Zane Abbott",
+      "avatarFallback": "ZA",
+      "email": "zane.abbott@example.com",
+      "role": "Super Admin",
+      "status": "Active"
+    },
+    {
+      "id": 26,
+      "name": "Alyssa Baker",
+      "avatarFallback": "AB",
+      "email": "alyssa.baker@example.com",
+      "role": "Engineer",
+      "status": "Inactive"
+    },
+    {
+      "id": 27,
+      "name": "Brian Carson",
+      "avatarFallback": "BC",
+      "email": "brian.carson@example.com",
+      "role": "Designer",
+      "status": "Active"
+    },
+    {
+      "id": 28,
+      "name": "Catherine Dawson",
+      "avatarFallback": "CD",
+      "email": "catherine.dawson@example.com",
+      "role": "Manager",
+      "status": "Inactive"
+    },
+    {
+      "id": 29,
+      "name": "Derek Emerson",
+      "avatarFallback": "DE",
+      "email": "derek.emerson@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 30,
+      "name": "Eva Freeman",
+      "avatarFallback": "EF",
+      "email": "eva.freeman@example.com",
+      "role": "Super Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 31,
+      "name": "Franklin George",
+      "avatarFallback": "FG",
+      "email": "franklin.george@example.com",
+      "role": "Engineer",
+      "status": "Active"
+    },
+    {
+      "id": 32,
+      "name": "Grace Howard",
+      "avatarFallback": "GH",
+      "email": "grace.howard@example.com",
+      "role": "Designer",
+      "status": "Inactive"
+    },
+    {
+      "id": 33,
+      "name": "Henry Ingram",
+      "avatarFallback": "HI",
+      "email": "henry.ingram@example.com",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "id": 34,
+      "name": "Isla Jenkins",
+      "avatarFallback": "IJ",
+      "email": "isla.jenkins@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 35,
+      "name": "Jack King",
+      "avatarFallback": "JK",
+      "email": "jack.king@example.com",
+      "role": "Super Admin",
+      "status": "Active"
+    },
+    {
+      "id": 36,
+      "name": "Katie Lopez",
+      "avatarFallback": "KL",
+      "email": "katie.lopez@example.com",
+      "role": "Engineer",
+      "status": "Inactive"
+    },
+    {
+      "id": 37,
+      "name": "Liam Morgan",
+      "avatarFallback": "LM",
+      "email": "liam.morgan@example.com",
+      "role": "Designer",
+      "status": "Active"
+    },
+    {
+      "id": 38,
+      "name": "Madison Neal",
+      "avatarFallback": "MN",
+      "email": "madison.neal@example.com",
+      "role": "Manager",
+      "status": "Inactive"
+    },
+    {
+      "id": 39,
+      "name": "Nathan Oliver",
+      "avatarFallback": "NO",
+      "email": "nathan.oliver@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 40,
+      "name": "Olivia Parker",
+      "avatarFallback": "OP",
+      "email": "olivia.parker@example.com",
+      "role": "Super Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 41,
+      "name": "Peter Quirk",
+      "avatarFallback": "PQ",
+      "email": "peter.quirk@example.com",
+      "role": "Engineer",
+      "status": "Active"
+    },
+    {
+      "id": 42,
+      "name": "Quinn Reed",
+      "avatarFallback": "QR",
+      "email": "quinn.reed@example.com",
+      "role": "Designer",
+      "status": "Inactive"
+    },
+    {
+      "id": 43,
+      "name": "Rebecca Smith",
+      "avatarFallback": "RS",
+      "email": "rebecca.smith@example.com",
+      "role": "Manager",
+      "status": "Active"
+    },
+    {
+      "id": 44,
+      "name": "Samuel Thompson",
+      "avatarFallback": "ST",
+      "email": "samuel.thompson@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 45,
+      "name": "Tina Underhill",
+      "avatarFallback": "TU",
+      "email": "tina.underhill@example.com",
+      "role": "Super Admin",
+      "status": "Active"
+    },
+    {
+      "id": 46,
+      "name": "Umar Vincent",
+      "avatarFallback": "UV",
+      "email": "umar.vincent@example.com",
+      "role": "Engineer",
+      "status": "Inactive"
+    },
+    {
+      "id": 47,
+      "name": "Victor Walters",
+      "avatarFallback": "VW",
+      "email": "victor.walters@example.com",
+      "role": "Designer",
+      "status": "Active"
+    },
+    {
+      "id": 48,
+      "name": "Wendy Xu",
+      "avatarFallback": "WX",
+      "email": "wendy.xu@example.com",
+      "role": "Manager",
+      "status": "Inactive"
+    },
+    {
+      "id": 49,
+      "name": "Xena Yates",
+      "avatarFallback": "XY",
+      "email": "xena.yates@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 50,
+      "name": "Yusuf Zane",
+      "avatarFallback": "YZ",
+      "email": "yusuf.zane@example.com",
+      "role": "Super Admin",
+      "status": "Inactive"
     }
   ],
   "roles": [
     {
-      "id": "1",
-      "name": "Admin",
-      "permissions": ["Read", "Write", "Delete", "Manage Roles", "Manage Users"]
+      "roleName": "Admin",
+      "permissions": [1, 2, 3, 4, 5, 6]
     },
     {
-      "id": "2",
-      "name": "Manager",
-      "permissions": ["Read", "Write", "Manage roles"]
+      "roleName": "Manager",
+      "permissions": [4, 3, 6]
     },
     {
-      "id": "3",
-      "name": "User",
-      "permissions": ["Read"]
+      "roleName": "Engineer",
+      "permissions": [4, 7, 8]
+    },
+    {
+      "roleName": "Designer",
+      "permissions": [4, 7, 9]
+    },
+    {
+      "roleName": "Super Admin",
+      "permissions": [1, 2, 3, 4, 5, 6, 10]
     }
   ],
   "permissions": [
-    { "id": "1", "name": "Read" },
-    { "id": "2", "name": "Write" },
-    { "id": "3", "name": "Delete" },
-    { "id": "4", "name": "Manage Roles" },
-    { "id": "5", "name": "Manage Users" }
+    {
+      "id": 1,
+      "name": "create_user",
+      "description": "Allows creating new users in the system"
+    },
+    {
+      "id": 2,
+      "name": "delete_user",
+      "description": "Allows deleting users from the system"
+    },
+    {
+      "id": 3,
+      "name": "update_user",
+      "description": "Allows updating user information"
+    },
+    {
+      "id": 4,
+      "name": "view_user",
+      "description": "Allows viewing user profiles and information"
+    },
+    {
+      "id": 5,
+      "name": "manage_roles",
+      "description": "Allows assigning or modifying roles of users"
+    },
+    {
+      "id": 6,
+      "name": "view_reports",
+      "description": "Allows viewing analytical and performance reports"
+    },
+    {
+      "id": 7,
+      "name": "update_own_profile",
+      "description": "Allows users to update their own profile information"
+    },
+    {
+      "id": 8,
+      "name": "submit_reports",
+      "description": "Allows submitting reports or performance updates"
+    },
+    {
+      "id": 9,
+      "name": "access_design_tools",
+      "description": "Allows accessing design-related tools or resources"
+    },
+    {
+      "id": 10,
+      "name": "manage_system_settings",
+      "description": "Allows managing global system settings and configurations"
+    }
   ],
   "logs": [
     {
-      "id": "log1",
-      "userId": "1",
-      "action": "Created Role",
-      "details": "Admin role created with full permissions",
-      "timestamp": "2024-11-19T14:00:00Z"
+      "id": 1,
+      "timestamp": "2024-11-25T10:00:00Z",
+      "action": "login",
+      "user": {
+        "id": 101,
+        "name": "John Doe",
+        "role": "Admin"
+      },
+      "status": "success",
+      "details": "User logged in successfully."
     },
     {
-      "id": "log2",
-      "userId": "2",
-      "action": "Assigned Role",
-      "details": "Assigned 'Manager' role to Jane Smith",
-      "timestamp": "2024-11-20T09:30:00Z"
+      "id": 2,
+      "timestamp": "2024-11-25T10:10:00Z",
+      "action": "create_user",
+      "user": {
+        "id": 101,
+        "name": "John Doe",
+        "role": "Admin"
+      },
+      "status": "success",
+      "details": "Created new user 'Jane Smith' with role 'Designer'."
     },
     {
-      "id": "log3",
-      "userId": "3",
-      "action": "Modified Permissions",
-      "details": "Changed 'User' role permissions to include 'Write'",
-      "timestamp": "2024-11-18T15:00:00Z"
+      "id": 3,
+      "timestamp": "2024-11-25T10:15:00Z",
+      "action": "delete_user",
+      "user": {
+        "id": 101,
+        "name": "John Doe",
+        "role": "Admin"
+      },
+      "status": "failed",
+      "details": "User 'Jane Smith' deletion failed due to missing permissions."
     },
     {
-      "id": "log4",
-      "userId": "4",
-      "action": "Deactivated User",
-      "details": "Deactivated 'Jane Smith' user account",
-      "timestamp": "2024-11-21T16:00:00Z"
+      "id": 4,
+      "timestamp": "2024-11-25T10:20:00Z",
+      "action": "view_user",
+      "user": {
+        "id": 102,
+        "name": "Emma Johnson",
+        "role": "Manager"
+      },
+      "status": "success",
+      "details": "Viewed profile of user 'Mark Taylor'."
+    },
+    {
+      "id": 5,
+      "timestamp": "2024-11-25T10:30:00Z",
+      "action": "update_own_profile",
+      "user": {
+        "id": 103,
+        "name": "Alice Brown",
+        "role": "Engineer"
+      },
+      "status": "success",
+      "details": "Updated profile picture and contact details."
+    },
+    {
+      "id": 6,
+      "timestamp": "2024-11-25T10:45:00Z",
+      "action": "view_reports",
+      "user": {
+        "id": 102,
+        "name": "Emma Johnson",
+        "role": "Manager"
+      },
+      "status": "success",
+      "details": "Viewed sales performance report for Q4."
+    },
+    {
+      "id": 7,
+      "timestamp": "2024-11-25T11:00:00Z",
+      "action": "access_design_tools",
+      "user": {
+        "id": 104,
+        "name": "Bob White",
+        "role": "Designer"
+      },
+      "status": "success",
+      "details": "Accessed 'Figma' design tools."
+    },
+    {
+      "id": 8,
+      "timestamp": "2024-11-25T11:15:00Z",
+      "action": "manage_system_settings",
+      "user": {
+        "id": 105,
+        "name": "Sarah Lee",
+        "role": "Super Admin"
+      },
+      "status": "success",
+      "details": "Updated password policies for the system."
     }
   ]
 }
