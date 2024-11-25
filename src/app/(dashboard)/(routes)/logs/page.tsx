@@ -10,11 +10,11 @@ import { Separator } from "@/components/ui/separator";
 import { Heading } from "@/components/common/heading";
 import { DataTable } from "@/components/logs/data-table";
 import { TableColumns } from "@/components/logs/table-columns";
-import { RolesProps } from "@/interface";
+import { LogProps } from "@/interface";
 import { ActionBtn } from "@/components/common/action-btn";
 
 export default function Logs() {
-  const [data, setData] = React.useState<RolesProps[]>([]);
+  const [data, setData] = React.useState<LogProps[]>([]);
 
   React.useEffect(() => {
     const fetchUsers = async () => {
