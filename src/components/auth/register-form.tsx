@@ -33,7 +33,7 @@ export const RegisterForm = () => {
   };
   return (
     <AuthCard
-      title="🔐 Auth"
+      title="AuthMatrix"
       description="Create an Account"
       label="Already have an Account?"
       href="/login"

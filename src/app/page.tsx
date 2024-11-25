@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RiShieldKeyholeLine } from "react-icons/ri";
 
 import { buttonVariants } from "@/components/ui/button";
 
@@ -6,8 +7,9 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-sky-400 to-blue-800 font-[family-name:var(--font-geist-sans)]">
       <div className="space-y-6 text-center">
-        <h1 className="text-6xl font-semibold text-white drop-shadow-md">
-          🔐Auth
+        <h1 className="flex items-center text-6xl font-semibold text-white drop-shadow-md">
+          <RiShieldKeyholeLine className="mr-3" />
+          AuthMatrix
         </h1>
         <p className="font-[family-name:var(--font-geist-mono)] text-lg text-white">
           A Role-Based Access Control System

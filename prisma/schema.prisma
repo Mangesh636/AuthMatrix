@@ -6,3 +6,44 @@ datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
 }
+
+// model User {
+//   id            String        @id @default(auto()) @map("_id") @db.ObjectId
+//   name          String
+//   email         String       @unique
+//   password      String?       
+//   emailVerified Boolean       @default(false)
+//   roles         Role[]        @relation("UserRole")
+//   providers     OAuthProvider[]
+//   createdAt     DateTime      @default(now())
+//   updatedAt     DateTime      @updatedAt
+// }
+
+// model Role {
+//   id          String       @id @default(auto()) @map("_id") @db.ObjectId
+//   name        String       @unique // e.g., Admin, User, Editor
+//   description String?
+//   permissions Permission[] @relation("RolePermission")
+//   users       User[]       @relation("UserRole")
+//   createdAt   DateTime     @default(now())
+//   updatedAt   DateTime     @updatedAt
+// }
+
+// model Permission {
+//   id          String   @id @default(auto()) @map("_id") @db.ObjectId
+//   name        String   @unique // e.g., 'read', 'write', 'delete'
+//   description String?
+//   roles       Role[]   @relation("RolePermission")
+//   createdAt   DateTime @default(now())
+//   updatedAt   DateTime @updatedAt
+// }
+
+// model OAuthProvider {
+//   id         String   @id @default(auto()) @map("_id") @db.ObjectId
+//   provider   String   // e.g., 'google', 'github'
+//   providerId String   // Unique identifier from the provider
+//   userId     String   @db.ObjectId
+//   user       User     @relation(fields: [userId], references: [id])
+//   createdAt  DateTime @default(now())
+//   updatedAt  DateTime @updatedAt
+// }

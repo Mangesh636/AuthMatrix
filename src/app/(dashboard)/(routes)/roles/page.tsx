@@ -6,20 +6,20 @@ import toast from "react-hot-toast";
 
 import { Separator } from "@/components/ui/separator";
 
-import { PermissionProps } from "@/interface";
 import { Heading } from "@/components/common/heading";
-import { DataTable } from "@/components/permissions/data-table";
-import { TableColumns } from "@/components/permissions/table-columns";
+import { DataTable } from "@/components/roles/data-table";
+import { TableColumns } from "@/components/roles/table-columns";
+import { RolesProps } from "@/interface";
 import { ActionBtn } from "@/components/common/action-btn";
 import { RiAddFill } from "react-icons/ri";
 
-export default function Permissions() {
-  const [data, setData] = React.useState<PermissionProps[]>([]);
+export default function Logs() {
+  const [data, setData] = React.useState<RolesProps[]>([]);
 
   React.useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/permissions");
+        const response = await axios.get("http://localhost:8080/roles");
         setData(response.data);
       } catch (error) {
         toast.error("Failed to get users.");
@@ -33,14 +33,10 @@ export default function Permissions() {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <Heading
-          label="Manage Permissions"
+          label="Manage Roles"
           className="text-3xl font-medium text-blue-600"
         />
-        <ActionBtn
-          label="Add Permission"
-          icon={RiAddFill}
-          className="max-w-44"
-        />
+        <ActionBtn label="Add Role" icon={RiAddFill} className="max-w-32" />
       </div>
 
       <Separator className="h-0.5 rounded-full" />

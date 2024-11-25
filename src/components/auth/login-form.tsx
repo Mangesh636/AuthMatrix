@@ -32,7 +32,7 @@ export const LoginForm = () => {
   };
   return (
     <AuthCard
-      title="🔐 Auth"
+      title="AuthMatrix"
       description="Welcome back"
       label="Don't have an Account?"
       href="/register"

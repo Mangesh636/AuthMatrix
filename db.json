@@ -403,22 +403,27 @@
   ],
   "roles": [
     {
+      "id": 1,
       "roleName": "Admin",
       "permissions": [1, 2, 3, 4, 5, 6]
     },
     {
+      "id": 2,
       "roleName": "Manager",
       "permissions": [4, 3, 6]
     },
     {
+      "id": 3,
       "roleName": "Engineer",
       "permissions": [4, 7, 8]
     },
     {
+      "id": 4,
       "roleName": "Designer",
       "permissions": [4, 7, 9]
     },
     {
+      "id": 5,
       "roleName": "Super Admin",
       "permissions": [1, 2, 3, 4, 5, 6, 10]
     }
@@ -426,52 +431,52 @@
   "permissions": [
     {
       "id": 1,
-      "name": "create_user",
+      "name": "Create User",
       "description": "Allows creating new users in the system"
     },
     {
       "id": 2,
-      "name": "delete_user",
+      "name": "Delete User",
       "description": "Allows deleting users from the system"
     },
     {
       "id": 3,
-      "name": "update_user",
+      "name": "Update User",
       "description": "Allows updating user information"
     },
     {
       "id": 4,
-      "name": "view_user",
+      "name": "View User",
       "description": "Allows viewing user profiles and information"
     },
     {
       "id": 5,
-      "name": "manage_roles",
+      "name": "Manage Roles",
       "description": "Allows assigning or modifying roles of users"
     },
     {
       "id": 6,
-      "name": "view_reports",
+      "name": "View Reports",
       "description": "Allows viewing analytical and performance reports"
     },
     {
       "id": 7,
-      "name": "update_own_profile",
+      "name": "Update Own Profile",
       "description": "Allows users to update their own profile information"
     },
     {
       "id": 8,
-      "name": "submit_reports",
+      "name": "Submit Reports",
       "description": "Allows submitting reports or performance updates"
     },
     {
       "id": 9,
-      "name": "access_design_tools",
+      "name": "Access Design Tools",
       "description": "Allows accessing design-related tools or resources"
     },
     {
       "id": 10,
-      "name": "manage_system_settings",
+      "name": "Manage System Settings",
       "description": "Allows managing global system settings and configurations"
     }
   ],
