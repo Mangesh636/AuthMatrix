@@ -484,7 +484,7 @@
     {
       "id": 1,
       "timestamp": "2024-11-25T10:00:00Z",
-      "action": "login",
+      "action": "Login",
       "user": {
         "id": 101,
         "name": "John Doe",
@@ -496,7 +496,7 @@
     {
       "id": 2,
       "timestamp": "2024-11-25T10:10:00Z",
-      "action": "create_user",
+      "action": "Create User",
       "user": {
         "id": 101,
         "name": "John Doe",
@@ -508,7 +508,7 @@
     {
       "id": 3,
       "timestamp": "2024-11-25T10:15:00Z",
-      "action": "delete_user",
+      "action": "Delete User",
       "user": {
         "id": 101,
         "name": "John Doe",
@@ -520,7 +520,7 @@
     {
       "id": 4,
       "timestamp": "2024-11-25T10:20:00Z",
-      "action": "view_user",
+      "action": "View User",
       "user": {
         "id": 102,
         "name": "Emma Johnson",
@@ -532,7 +532,7 @@
     {
       "id": 5,
       "timestamp": "2024-11-25T10:30:00Z",
-      "action": "update_own_profile",
+      "action": "Update Own Profile",
       "user": {
         "id": 103,
         "name": "Alice Brown",
@@ -544,7 +544,7 @@
     {
       "id": 6,
       "timestamp": "2024-11-25T10:45:00Z",
-      "action": "view_reports",
+      "action": "View Reports",
       "user": {
         "id": 102,
         "name": "Emma Johnson",
@@ -556,7 +556,7 @@
     {
       "id": 7,
       "timestamp": "2024-11-25T11:00:00Z",
-      "action": "access_design_tools",
+      "action": "Access Design Tools",
       "user": {
         "id": 104,
         "name": "Bob White",
@@ -568,7 +568,7 @@
     {
       "id": 8,
       "timestamp": "2024-11-25T11:15:00Z",
-      "action": "manage_system_settings",
+      "action": "Manage System Settings",
       "user": {
         "id": 105,
         "name": "Sarah Lee",

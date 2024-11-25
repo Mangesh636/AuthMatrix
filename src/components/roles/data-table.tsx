@@ -109,11 +109,9 @@ export const DataTable = <TData, TValue>({
                   >
                     {column.id === "id"
                       ? "Sr.No"
-                      : column.id === "name"
-                        ? "Permission Name"
-                        : column.id === "roleName"
-                          ? "Role Name"
-                          : column.id}
+                      : column.id === "roleName"
+                        ? "Role Name"
+                        : column.id}
                   </DropdownMenuCheckboxItem>
                 );
               })}

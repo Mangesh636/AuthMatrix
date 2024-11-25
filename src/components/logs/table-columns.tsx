@@ -8,6 +8,13 @@ import { Button } from "../ui/button";
 
 import { LogProps } from "@/interface";
 
+const formatTimestamp = (timestamp: string) => {
+  return new Date(timestamp).toLocaleString("en-US", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+};
+
 export const TableColumns: ColumnDef<LogProps>[] = [
   {
     accessorKey: "id",
@@ -24,11 +31,20 @@ export const TableColumns: ColumnDef<LogProps>[] = [
     },
   },
   {
-    accessorKey: "timestamp",
-    header: "Time Stamp",
+    accessorKey: "user.name",
+    header: "Name",
   },
   {
-    id: "action",
+    accessorKey: "user.role",
+    header: "User Role",
+  },
+  {
+    accessorKey: "action",
     header: "Action",
+  },
+  {
+    accessorKey: "timestamp",
+    header: "Time Stamp",
+    cell: ({ row }) => formatTimestamp(row.getValue("timestamp")),
   },
 ];
