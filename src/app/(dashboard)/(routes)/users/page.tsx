@@ -10,8 +10,7 @@ import { Heading } from "@/components/common/heading";
 import { DataTable } from "@/components/users/data-table";
 import { TableColumns } from "@/components/users/table-columns";
 import { UserProps } from "@/interface";
-import { ActionBtn } from "@/components/common/action-btn";
-import { RiAddFill } from "react-icons/ri";
+import { UserModal } from "@/components/users/user-modal";
 
 export default function Users() {
   const [data, setData] = React.useState<UserProps[]>([]);
@@ -36,7 +35,7 @@ export default function Users() {
           label="Manage Users"
           className="text-3xl font-medium text-blue-600"
         />
-        <ActionBtn label="Add User" icon={RiAddFill} className="max-w-32" />
+        <UserModal />
       </div>
 
       <Separator className="h-0.5 rounded-full" />

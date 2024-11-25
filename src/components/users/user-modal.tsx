@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { RiAddFill } from "react-icons/ri";
 
 import { Button } from "../ui/button";
 import {
@@ -14,29 +15,30 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 
-interface UserModalProps {
-  label: string;
-  open: boolean;
-}
+import { ActionBtn } from "@/components/common/action-btn";
 
-export const UserModal: React.FC<UserModalProps> = ({ label, open }) => {
-  const [isOpen, setIsOpen] = React.useState(open);
+export const UserModal = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogTrigger>{label}</DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
-        <DialogHeader>
-          <DialogTitle>Edit User</DialogTitle>
-          <DialogDescription>Make changes to your Profile</DialogDescription>
-        </DialogHeader>
-        <DialogFooter>
-          <DialogClose asChild className="flex items-center justify-around">
-            <Button>Discard Changes</Button>
-            <Button>Save Changes</Button>
-          </DialogClose>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
+    <>
+      <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <DialogTrigger asChild>
+          <ActionBtn label="Add User" icon={RiAddFill} className="max-w-32" />
+        </DialogTrigger>
+        <DialogContent className="sm:max-w-[425px]">
+          <DialogHeader>
+            <DialogTitle>Add User</DialogTitle>
+            <DialogDescription>Add a user</DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <DialogClose asChild className="flex items-center justify-around">
+              <Button>Discard Changes</Button>
+              <Button>Save Changes</Button>
+            </DialogClose>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </>
   );
 };

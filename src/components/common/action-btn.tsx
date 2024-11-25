@@ -19,16 +19,18 @@ export const ActionBtn: React.FC<ActionBtnProps> = ({
   onClick,
 }) => {
   return (
-    <Button
-      className={cn(
-        "flex flex-1 items-center justify-start rounded-lg border-2 border-blue-600/80 bg-transparent p-3 text-blue-600/80 transition hover:border-blue-600/30 hover:bg-blue-600/80 hover:text-white",
-        "flex flex-1 items-center justify-start rounded-lg border-2 border-blue-600/80 bg-transparent p-3 text-blue-600/80 transition hover:border-blue-600/30 hover:bg-blue-600/80 hover:text-white",
-        className,
-      )}
-      onClick={onClick}
-    >
-      {Icon && <Icon className="mr-3 h-5 w-5" />}
-      {label}
-    </Button>
+    <>
+      <Button
+        className={cn(
+          "flex flex-1 items-center justify-start rounded-lg border-2 border-blue-600/80 bg-transparent p-3 text-blue-600/80 transition hover:border-blue-600/30 hover:bg-blue-600/80 hover:text-white",
+          "flex flex-1 items-center justify-start rounded-lg border-2 border-blue-600/80 bg-transparent p-3 text-blue-600/80 transition hover:border-blue-600/30 hover:bg-blue-600/80 hover:text-white",
+          className,
+        )}
+        onClick={onClick}
+      >
+        {Icon && <Icon className="mr-3 h-5 w-5" />}
+        {label}
+      </Button>
+    </>
   );
 };
