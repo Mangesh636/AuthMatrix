@@ -39,6 +39,10 @@ export const TableColumns: ColumnDef<LogProps>[] = [
     header: "User Role",
   },
   {
+    accessorKey: "user.role",
+    header: "User Role",
+  },
+  {
     accessorKey: "action",
     header: "Action",
   },
