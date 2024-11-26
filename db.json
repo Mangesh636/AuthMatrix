@@ -2,402 +2,702 @@
   "users": [
     {
       "id": 1,
-      "name": "Aaron Bailey",
-      "avatarFallback": "AB",
-      "email": "aaron.bailey@example.com",
-      "role": "Engineer",
-      "status": "Active"
-    },
-    {
-      "id": 2,
-      "name": "Bella Cooper",
-      "avatarFallback": "BC",
-      "email": "bella.cooper@example.com",
-      "role": "Designer",
+      "name": "User1",
+      "email": "user1@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
-      "id": 3,
-      "name": "Caleb Davis",
-      "avatarFallback": "CD",
-      "email": "caleb.davis@example.com",
-      "role": "Manager",
+      "id": 2,
+      "name": "User2",
+      "email": "user2@example.com",
+      "role": "Viewer",
       "status": "Active"
     },
     {
+      "id": 3,
+      "name": "User3",
+      "email": "user3@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
       "id": 4,
-      "name": "Daisy Evans",
-      "avatarFallback": "DE",
-      "email": "daisy.evans@example.com",
-      "role": "Admin",
+      "name": "User4",
+      "email": "user4@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 5,
-      "name": "Evan Foster",
-      "avatarFallback": "EF",
-      "email": "evan.foster@example.com",
-      "role": "Super Admin",
+      "name": "User5",
+      "email": "user5@example.com",
+      "role": "Viewer",
       "status": "Active"
     },
     {
       "id": 6,
-      "name": "Fiona Green",
-      "avatarFallback": "FG",
-      "email": "fiona.green@example.com",
-      "role": "Engineer",
+      "name": "User6",
+      "email": "user6@example.com",
+      "role": "Editor",
       "status": "Inactive"
     },
     {
       "id": 7,
-      "name": "George Harris",
-      "avatarFallback": "GH",
-      "email": "george.harris@example.com",
-      "role": "Designer",
-      "status": "Active"
-    },
-    {
-      "id": 8,
-      "name": "Hannah James",
-      "avatarFallback": "HJ",
-      "email": "hannah.james@example.com",
-      "role": "Manager",
+      "name": "User7",
+      "email": "user7@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
+      "id": 8,
+      "name": "User8",
+      "email": "user8@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
       "id": 9,
-      "name": "Ian Kelly",
-      "avatarFallback": "IK",
-      "email": "ian.kelly@example.com",
+      "name": "User9",
+      "email": "user9@example.com",
       "role": "Admin",
       "status": "Active"
     },
     {
       "id": 10,
-      "name": "Julia Lee",
-      "avatarFallback": "JL",
-      "email": "julia.lee@example.com",
-      "role": "Super Admin",
+      "name": "User10",
+      "email": "user10@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
       "id": 11,
-      "name": "Kevin Miller",
-      "avatarFallback": "KM",
-      "email": "kevin.miller@example.com",
-      "role": "Engineer",
+      "name": "User11",
+      "email": "user11@example.com",
+      "role": "Contributor",
       "status": "Active"
     },
     {
       "id": 12,
-      "name": "Luna Nelson",
-      "avatarFallback": "LN",
-      "email": "luna.nelson@example.com",
-      "role": "Designer",
-      "status": "Inactive"
-    },
-    {
-      "id": 13,
-      "name": "Michael Owens",
-      "avatarFallback": "MO",
-      "email": "michael.owens@example.com",
-      "role": "Manager",
+      "name": "User12",
+      "email": "user12@example.com",
+      "role": "Viewer",
       "status": "Active"
     },
     {
+      "id": 13,
+      "name": "User13",
+      "email": "user13@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
       "id": 14,
-      "name": "Natalie Peterson",
-      "avatarFallback": "NP",
-      "email": "natalie.peterson@example.com",
+      "name": "User14",
+      "email": "user14@example.com",
       "role": "Admin",
       "status": "Inactive"
     },
     {
       "id": 15,
-      "name": "Oliver Quinn",
-      "avatarFallback": "OQ",
-      "email": "oliver.quinn@example.com",
-      "role": "Super Admin",
-      "status": "Active"
-    },
-    {
-      "id": 16,
-      "name": "Paige Roberts",
-      "avatarFallback": "PR",
-      "email": "paige.roberts@example.com",
-      "role": "Engineer",
+      "name": "User15",
+      "email": "user15@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
+      "id": 16,
+      "name": "User16",
+      "email": "user16@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
       "id": 17,
-      "name": "Ryan Stewart",
-      "avatarFallback": "RS",
-      "email": "ryan.stewart@example.com",
-      "role": "Designer",
+      "name": "User17",
+      "email": "user17@example.com",
+      "role": "Contributor",
       "status": "Active"
     },
     {
       "id": 18,
-      "name": "Sophia Turner",
-      "avatarFallback": "ST",
-      "email": "sophia.turner@example.com",
-      "role": "Manager",
-      "status": "Inactive"
-    },
-    {
-      "id": 19,
-      "name": "Thomas Underwood",
-      "avatarFallback": "TU",
-      "email": "thomas.underwood@example.com",
+      "name": "User18",
+      "email": "user18@example.com",
       "role": "Admin",
       "status": "Active"
     },
     {
+      "id": 19,
+      "name": "User19",
+      "email": "user19@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
       "id": 20,
-      "name": "Uma Vaughn",
-      "avatarFallback": "UV",
-      "email": "uma.vaughn@example.com",
-      "role": "Super Admin",
+      "name": "User20",
+      "email": "user20@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 21,
-      "name": "Victor White",
-      "avatarFallback": "VW",
-      "email": "victor.white@example.com",
-      "role": "Engineer",
-      "status": "Active"
-    },
-    {
-      "id": 22,
-      "name": "Wendy Xanders",
-      "avatarFallback": "WX",
-      "email": "wendy.xanders@example.com",
-      "role": "Designer",
+      "name": "User21",
+      "email": "user21@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
+      "id": 22,
+      "name": "User22",
+      "email": "user22@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
       "id": 23,
-      "name": "Xander Young",
-      "avatarFallback": "XY",
-      "email": "xander.young@example.com",
-      "role": "Manager",
+      "name": "User23",
+      "email": "user23@example.com",
+      "role": "Admin",
       "status": "Active"
     },
     {
       "id": 24,
-      "name": "Yara Zane",
-      "avatarFallback": "YZ",
-      "email": "yara.zane@example.com",
-      "role": "Admin",
+      "name": "User24",
+      "email": "user24@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
       "id": 25,
-      "name": "Zane Abbott",
-      "avatarFallback": "ZA",
-      "email": "zane.abbott@example.com",
-      "role": "Super Admin",
-      "status": "Active"
+      "name": "User25",
+      "email": "user25@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
     },
     {
       "id": 26,
-      "name": "Alyssa Baker",
-      "avatarFallback": "AB",
-      "email": "alyssa.baker@example.com",
-      "role": "Engineer",
+      "name": "User26",
+      "email": "user26@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
       "id": 27,
-      "name": "Brian Carson",
-      "avatarFallback": "BC",
-      "email": "brian.carson@example.com",
-      "role": "Designer",
-      "status": "Active"
+      "name": "User27",
+      "email": "user27@example.com",
+      "role": "Admin",
+      "status": "Inactive"
     },
     {
       "id": 28,
-      "name": "Catherine Dawson",
-      "avatarFallback": "CD",
-      "email": "catherine.dawson@example.com",
-      "role": "Manager",
+      "name": "User28",
+      "email": "user28@example.com",
+      "role": "Contributor",
       "status": "Inactive"
     },
     {
       "id": 29,
-      "name": "Derek Emerson",
-      "avatarFallback": "DE",
-      "email": "derek.emerson@example.com",
+      "name": "User29",
+      "email": "user29@example.com",
       "role": "Admin",
       "status": "Active"
     },
     {
       "id": 30,
-      "name": "Eva Freeman",
-      "avatarFallback": "EF",
-      "email": "eva.freeman@example.com",
-      "role": "Super Admin",
-      "status": "Inactive"
+      "name": "User30",
+      "email": "user30@example.com",
+      "role": "Admin",
+      "status": "Active"
     },
     {
       "id": 31,
-      "name": "Franklin George",
-      "avatarFallback": "FG",
-      "email": "franklin.george@example.com",
-      "role": "Engineer",
-      "status": "Active"
-    },
-    {
-      "id": 32,
-      "name": "Grace Howard",
-      "avatarFallback": "GH",
-      "email": "grace.howard@example.com",
-      "role": "Designer",
+      "name": "User31",
+      "email": "user31@example.com",
+      "role": "Admin",
       "status": "Inactive"
     },
     {
-      "id": 33,
-      "name": "Henry Ingram",
-      "avatarFallback": "HI",
-      "email": "henry.ingram@example.com",
-      "role": "Manager",
+      "id": 32,
+      "name": "User32",
+      "email": "user32@example.com",
+      "role": "Admin",
       "status": "Active"
     },
     {
+      "id": 33,
+      "name": "User33",
+      "email": "user33@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
       "id": 34,
-      "name": "Isla Jenkins",
-      "avatarFallback": "IJ",
-      "email": "isla.jenkins@example.com",
+      "name": "User34",
+      "email": "user34@example.com",
       "role": "Admin",
       "status": "Inactive"
     },
     {
       "id": 35,
-      "name": "Jack King",
-      "avatarFallback": "JK",
-      "email": "jack.king@example.com",
-      "role": "Super Admin",
-      "status": "Active"
-    },
-    {
-      "id": 36,
-      "name": "Katie Lopez",
-      "avatarFallback": "KL",
-      "email": "katie.lopez@example.com",
-      "role": "Engineer",
+      "name": "User35",
+      "email": "user35@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
+      "id": 36,
+      "name": "User36",
+      "email": "user36@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
       "id": 37,
-      "name": "Liam Morgan",
-      "avatarFallback": "LM",
-      "email": "liam.morgan@example.com",
-      "role": "Designer",
+      "name": "User37",
+      "email": "user37@example.com",
+      "role": "Admin",
       "status": "Active"
     },
     {
       "id": 38,
-      "name": "Madison Neal",
-      "avatarFallback": "MN",
-      "email": "madison.neal@example.com",
-      "role": "Manager",
-      "status": "Inactive"
-    },
-    {
-      "id": 39,
-      "name": "Nathan Oliver",
-      "avatarFallback": "NO",
-      "email": "nathan.oliver@example.com",
-      "role": "Admin",
+      "name": "User38",
+      "email": "user38@example.com",
+      "role": "Editor",
       "status": "Active"
     },
     {
+      "id": 39,
+      "name": "User39",
+      "email": "user39@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
       "id": 40,
-      "name": "Olivia Parker",
-      "avatarFallback": "OP",
-      "email": "olivia.parker@example.com",
-      "role": "Super Admin",
+      "name": "User40",
+      "email": "user40@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 41,
-      "name": "Peter Quirk",
-      "avatarFallback": "PQ",
-      "email": "peter.quirk@example.com",
-      "role": "Engineer",
+      "name": "User41",
+      "email": "user41@example.com",
+      "role": "Editor",
       "status": "Active"
     },
     {
       "id": 42,
-      "name": "Quinn Reed",
-      "avatarFallback": "QR",
-      "email": "quinn.reed@example.com",
-      "role": "Designer",
+      "name": "User42",
+      "email": "user42@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 43,
-      "name": "Rebecca Smith",
-      "avatarFallback": "RS",
-      "email": "rebecca.smith@example.com",
-      "role": "Manager",
-      "status": "Active"
+      "name": "User43",
+      "email": "user43@example.com",
+      "role": "Contributor",
+      "status": "Inactive"
     },
     {
       "id": 44,
-      "name": "Samuel Thompson",
-      "avatarFallback": "ST",
-      "email": "samuel.thompson@example.com",
-      "role": "Admin",
+      "name": "User44",
+      "email": "user44@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 45,
-      "name": "Tina Underhill",
-      "avatarFallback": "TU",
-      "email": "tina.underhill@example.com",
-      "role": "Super Admin",
-      "status": "Active"
+      "name": "User45",
+      "email": "user45@example.com",
+      "role": "Editor",
+      "status": "Inactive"
     },
     {
       "id": 46,
-      "name": "Umar Vincent",
-      "avatarFallback": "UV",
-      "email": "umar.vincent@example.com",
-      "role": "Engineer",
+      "name": "User46",
+      "email": "user46@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
       "id": 47,
-      "name": "Victor Walters",
-      "avatarFallback": "VW",
-      "email": "victor.walters@example.com",
-      "role": "Designer",
-      "status": "Active"
-    },
-    {
-      "id": 48,
-      "name": "Wendy Xu",
-      "avatarFallback": "WX",
-      "email": "wendy.xu@example.com",
-      "role": "Manager",
+      "name": "User47",
+      "email": "user47@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     },
     {
+      "id": 48,
+      "name": "User48",
+      "email": "user48@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
       "id": 49,
-      "name": "Xena Yates",
-      "avatarFallback": "XY",
-      "email": "xena.yates@example.com",
+      "name": "User49",
+      "email": "user49@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 50,
+      "name": "User50",
+      "email": "user50@example.com",
+      "role": "Contributor",
+      "status": "Active"
+    },
+    {
+      "id": 51,
+      "name": "User51",
+      "email": "user51@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 52,
+      "name": "User52",
+      "email": "user52@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 53,
+      "name": "User53",
+      "email": "user53@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 54,
+      "name": "User54",
+      "email": "user54@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 55,
+      "name": "User55",
+      "email": "user55@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 56,
+      "name": "User56",
+      "email": "user56@example.com",
+      "role": "Contributor",
+      "status": "Inactive"
+    },
+    {
+      "id": 57,
+      "name": "User57",
+      "email": "user57@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 58,
+      "name": "User58",
+      "email": "user58@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 59,
+      "name": "User59",
+      "email": "user59@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 60,
+      "name": "User60",
+      "email": "user60@example.com",
+      "role": "Contributor",
+      "status": "Inactive"
+    },
+    {
+      "id": 61,
+      "name": "User61",
+      "email": "user61@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 62,
+      "name": "User62",
+      "email": "user62@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 63,
+      "name": "User63",
+      "email": "user63@example.com",
       "role": "Admin",
       "status": "Active"
     },
     {
-      "id": 50,
-      "name": "Yusuf Zane",
-      "avatarFallback": "YZ",
-      "email": "yusuf.zane@example.com",
-      "role": "Super Admin",
+      "id": 64,
+      "name": "User64",
+      "email": "user64@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 65,
+      "name": "User65",
+      "email": "user65@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 66,
+      "name": "User66",
+      "email": "user66@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 67,
+      "name": "User67",
+      "email": "user67@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 68,
+      "name": "User68",
+      "email": "user68@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 69,
+      "name": "User69",
+      "email": "user69@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 70,
+      "name": "User70",
+      "email": "user70@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 71,
+      "name": "User71",
+      "email": "user71@example.com",
+      "role": "Contributor",
+      "status": "Active"
+    },
+    {
+      "id": 72,
+      "name": "User72",
+      "email": "user72@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 73,
+      "name": "User73",
+      "email": "user73@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 74,
+      "name": "User74",
+      "email": "user74@example.com",
+      "role": "Contributor",
+      "status": "Active"
+    },
+    {
+      "id": 75,
+      "name": "User75",
+      "email": "user75@example.com",
+      "role": "Contributor",
+      "status": "Active"
+    },
+    {
+      "id": 76,
+      "name": "User76",
+      "email": "user76@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 77,
+      "name": "User77",
+      "email": "user77@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 78,
+      "name": "User78",
+      "email": "user78@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 79,
+      "name": "User79",
+      "email": "user79@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 80,
+      "name": "User80",
+      "email": "user80@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 81,
+      "name": "User81",
+      "email": "user81@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 82,
+      "name": "User82",
+      "email": "user82@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 83,
+      "name": "User83",
+      "email": "user83@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 84,
+      "name": "User84",
+      "email": "user84@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 85,
+      "name": "User85",
+      "email": "user85@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 86,
+      "name": "User86",
+      "email": "user86@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 87,
+      "name": "User87",
+      "email": "user87@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 88,
+      "name": "User88",
+      "email": "user88@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    },
+    {
+      "id": 89,
+      "name": "User89",
+      "email": "user89@example.com",
+      "role": "Viewer",
+      "status": "Inactive"
+    },
+    {
+      "id": 90,
+      "name": "User90",
+      "email": "user90@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 91,
+      "name": "User91",
+      "email": "user91@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 92,
+      "name": "User92",
+      "email": "user92@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 93,
+      "name": "User93",
+      "email": "user93@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": 94,
+      "name": "User94",
+      "email": "user94@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 95,
+      "name": "User95",
+      "email": "user95@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 96,
+      "name": "User96",
+      "email": "user96@example.com",
+      "role": "Editor",
+      "status": "Active"
+    },
+    {
+      "id": 97,
+      "name": "User97",
+      "email": "user97@example.com",
+      "role": "Admin",
+      "status": "Active"
+    },
+    {
+      "id": 98,
+      "name": "User98",
+      "email": "user98@example.com",
+      "role": "Contributor",
+      "status": "Inactive"
+    },
+    {
+      "id": 99,
+      "name": "User99",
+      "email": "user99@example.com",
+      "role": "Viewer",
+      "status": "Active"
+    },
+    {
+      "id": 100,
+      "name": "User100",
+      "email": "user100@example.com",
+      "role": "Viewer",
       "status": "Inactive"
     }
   ],
@@ -405,177 +705,974 @@
     {
       "id": 1,
       "roleName": "Admin",
-      "permissions": [1, 2, 3, 4, 5, 6]
+      "permissions": [4, 8, 7]
     },
     {
       "id": 2,
-      "roleName": "Manager",
-      "permissions": [4, 3, 6]
+      "roleName": "Editor",
+      "permissions": [2, 8]
     },
     {
       "id": 3,
-      "roleName": "Engineer",
-      "permissions": [4, 7, 8]
+      "roleName": "Viewer",
+      "permissions": [5, 7, 3, 4, 8]
     },
     {
       "id": 4,
-      "roleName": "Designer",
-      "permissions": [4, 7, 9]
-    },
-    {
-      "id": 5,
-      "roleName": "Super Admin",
-      "permissions": [1, 2, 3, 4, 5, 6, 10]
+      "roleName": "Contributor",
+      "permissions": [3, 7]
     }
   ],
   "permissions": [
     {
       "id": 1,
-      "name": "Create User",
-      "description": "Allows creating new users in the system"
+      "label": "Manage Users",
+      "key": "manage_users",
+      "description": "Permission to manage users."
     },
     {
       "id": 2,
-      "name": "Delete User",
-      "description": "Allows deleting users from the system"
+      "label": "Manage Settings",
+      "key": "manage_settings",
+      "description": "Permission to manage settings."
     },
     {
       "id": 3,
-      "name": "Update User",
-      "description": "Allows updating user information"
+      "label": "Create Content",
+      "key": "create_content",
+      "description": "Permission to create content."
     },
     {
       "id": 4,
-      "name": "View User",
-      "description": "Allows viewing user profiles and information"
+      "label": "Edit Content",
+      "key": "edit_content",
+      "description": "Permission to edit content."
     },
     {
       "id": 5,
-      "name": "Manage Roles",
-      "description": "Allows assigning or modifying roles of users"
+      "label": "Delete Content",
+      "key": "delete_content",
+      "description": "Permission to delete content."
     },
     {
       "id": 6,
-      "name": "View Reports",
-      "description": "Allows viewing analytical and performance reports"
+      "label": "View Content",
+      "key": "view_content",
+      "description": "Permission to view content."
     },
     {
       "id": 7,
-      "name": "Update Own Profile",
-      "description": "Allows users to update their own profile information"
+      "label": "Access Reports",
+      "key": "access_reports",
+      "description": "Permission to access reports."
     },
     {
       "id": 8,
-      "name": "Submit Reports",
-      "description": "Allows submitting reports or performance updates"
-    },
-    {
-      "id": 9,
-      "name": "Access Design Tools",
-      "description": "Allows accessing design-related tools or resources"
-    },
-    {
-      "id": 10,
-      "name": "Manage System Settings",
-      "description": "Allows managing global system settings and configurations"
+      "label": "Manage Roles",
+      "key": "manage_roles",
+      "description": "Permission to manage roles."
     }
   ],
   "logs": [
     {
       "id": 1,
-      "timestamp": "2024-11-25T10:00:00Z",
-      "action": "Login",
-      "user": {
-        "id": 101,
-        "name": "John Doe",
-        "role": "Admin"
-      },
-      "status": "success",
-      "details": "User logged in successfully."
+      "timestamp": "2024-11-21 13:23:12",
+      "action": "Update",
+      "userName": "User63",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Accessed dashboard"
     },
     {
       "id": 2,
-      "timestamp": "2024-11-25T10:10:00Z",
-      "action": "Create User",
-      "user": {
-        "id": 101,
-        "name": "John Doe",
-        "role": "Admin"
-      },
-      "status": "success",
-      "details": "Created new user 'Jane Smith' with role 'Designer'."
+      "timestamp": "2024-11-24 14:46:12",
+      "action": "Login",
+      "userName": "User85",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Accessed dashboard"
     },
     {
       "id": 3,
-      "timestamp": "2024-11-25T10:15:00Z",
-      "action": "Delete User",
-      "user": {
-        "id": 101,
-        "name": "John Doe",
-        "role": "Admin"
-      },
-      "status": "failed",
-      "details": "User 'Jane Smith' deletion failed due to missing permissions."
+      "timestamp": "2024-11-23 09:12:12",
+      "action": "Login",
+      "userName": "User71",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Created a new entry"
     },
     {
       "id": 4,
-      "timestamp": "2024-11-25T10:20:00Z",
-      "action": "View User",
-      "user": {
-        "id": 102,
-        "name": "Emma Johnson",
-        "role": "Manager"
-      },
-      "status": "success",
-      "details": "Viewed profile of user 'Mark Taylor'."
+      "timestamp": "2024-11-22 04:18:12",
+      "action": "Create",
+      "userName": "User17",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Updated user profile"
     },
     {
       "id": 5,
-      "timestamp": "2024-11-25T10:30:00Z",
-      "action": "Update Own Profile",
-      "user": {
-        "id": 103,
-        "name": "Alice Brown",
-        "role": "Engineer"
-      },
-      "status": "success",
-      "details": "Updated profile picture and contact details."
+      "timestamp": "2024-11-21 10:42:12",
+      "action": "Create",
+      "userName": "User15",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Deleted a record"
     },
     {
       "id": 6,
-      "timestamp": "2024-11-25T10:45:00Z",
-      "action": "View Reports",
-      "user": {
-        "id": 102,
-        "name": "Emma Johnson",
-        "role": "Manager"
-      },
-      "status": "success",
-      "details": "Viewed sales performance report for Q4."
+      "timestamp": "2024-11-23 12:51:12",
+      "action": "Delete",
+      "userName": "User69",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Deleted a record"
     },
     {
       "id": 7,
-      "timestamp": "2024-11-25T11:00:00Z",
-      "action": "Access Design Tools",
-      "user": {
-        "id": 104,
-        "name": "Bob White",
-        "role": "Designer"
-      },
-      "status": "success",
-      "details": "Accessed 'Figma' design tools."
+      "timestamp": "2024-11-19 15:53:12",
+      "action": "Delete",
+      "userName": "User50",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Deleted a record"
     },
     {
       "id": 8,
-      "timestamp": "2024-11-25T11:15:00Z",
-      "action": "Manage System Settings",
-      "user": {
-        "id": 105,
-        "name": "Sarah Lee",
-        "role": "Super Admin"
-      },
-      "status": "success",
-      "details": "Updated password policies for the system."
+      "timestamp": "2024-11-20 13:40:12",
+      "action": "Logout",
+      "userName": "User4",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 9,
+      "timestamp": "2024-11-21 06:36:12",
+      "action": "Delete",
+      "userName": "User93",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 10,
+      "timestamp": "2024-11-24 20:35:12",
+      "action": "View",
+      "userName": "User16",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 11,
+      "timestamp": "2024-11-25 12:57:12",
+      "action": "Login",
+      "userName": "User46",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 12,
+      "timestamp": "2024-11-24 18:11:12",
+      "action": "Create",
+      "userName": "User5",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Viewed report"
+    },
+    {
+      "id": 13,
+      "timestamp": "2024-11-19 17:45:12",
+      "action": "Create",
+      "userName": "User100",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 14,
+      "timestamp": "2024-11-22 01:03:12",
+      "action": "Login",
+      "userName": "User11",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 15,
+      "timestamp": "2024-11-23 22:43:12",
+      "action": "Create",
+      "userName": "User87",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 16,
+      "timestamp": "2024-11-20 05:05:12",
+      "action": "Logout",
+      "userName": "User12",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 17,
+      "timestamp": "2024-11-26 05:23:12",
+      "action": "View",
+      "userName": "User2",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 18,
+      "timestamp": "2024-11-22 12:13:12",
+      "action": "Delete",
+      "userName": "User61",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Viewed report"
+    },
+    {
+      "id": 19,
+      "timestamp": "2024-11-21 02:47:12",
+      "action": "Create",
+      "userName": "User25",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 20,
+      "timestamp": "2024-11-20 06:56:12",
+      "action": "Create",
+      "userName": "User92",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 21,
+      "timestamp": "2024-11-19 15:14:12",
+      "action": "Logout",
+      "userName": "User33",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 22,
+      "timestamp": "2024-11-25 01:41:12",
+      "action": "Create",
+      "userName": "User66",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 23,
+      "timestamp": "2024-11-21 15:45:12",
+      "action": "Create",
+      "userName": "User89",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 24,
+      "timestamp": "2024-11-20 01:12:12",
+      "action": "View",
+      "userName": "User60",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 25,
+      "timestamp": "2024-11-21 02:49:12",
+      "action": "View",
+      "userName": "User9",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 26,
+      "timestamp": "2024-11-26 10:44:12",
+      "action": "Login",
+      "userName": "User93",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 27,
+      "timestamp": "2024-11-26 01:08:12",
+      "action": "Logout",
+      "userName": "User93",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 28,
+      "timestamp": "2024-11-26 10:50:12",
+      "action": "Logout",
+      "userName": "User80",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 29,
+      "timestamp": "2024-11-24 13:52:12",
+      "action": "Login",
+      "userName": "User51",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 30,
+      "timestamp": "2024-11-20 00:48:12",
+      "action": "Delete",
+      "userName": "User1",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 31,
+      "timestamp": "2024-11-26 05:18:12",
+      "action": "Update",
+      "userName": "User46",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 32,
+      "timestamp": "2024-11-25 07:24:12",
+      "action": "Logout",
+      "userName": "User42",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 33,
+      "timestamp": "2024-11-25 14:24:12",
+      "action": "Logout",
+      "userName": "User2",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 34,
+      "timestamp": "2024-11-26 03:14:12",
+      "action": "Login",
+      "userName": "User90",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 35,
+      "timestamp": "2024-11-26 08:26:12",
+      "action": "Update",
+      "userName": "User47",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 36,
+      "timestamp": "2024-11-23 11:26:12",
+      "action": "Logout",
+      "userName": "User23",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 37,
+      "timestamp": "2024-11-24 01:07:12",
+      "action": "View",
+      "userName": "User18",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 38,
+      "timestamp": "2024-11-19 17:01:12",
+      "action": "Create",
+      "userName": "User2",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 39,
+      "timestamp": "2024-11-20 23:21:12",
+      "action": "Logout",
+      "userName": "User17",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 40,
+      "timestamp": "2024-11-26 04:24:12",
+      "action": "Update",
+      "userName": "User16",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 41,
+      "timestamp": "2024-11-19 22:42:12",
+      "action": "Delete",
+      "userName": "User68",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 42,
+      "timestamp": "2024-11-23 08:31:12",
+      "action": "Login",
+      "userName": "User37",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 43,
+      "timestamp": "2024-11-23 19:07:12",
+      "action": "Update",
+      "userName": "User69",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 44,
+      "timestamp": "2024-11-21 05:17:12",
+      "action": "Delete",
+      "userName": "User24",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 45,
+      "timestamp": "2024-11-25 15:14:12",
+      "action": "Create",
+      "userName": "User56",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 46,
+      "timestamp": "2024-11-20 04:06:12",
+      "action": "Logout",
+      "userName": "User76",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 47,
+      "timestamp": "2024-11-20 03:53:12",
+      "action": "Login",
+      "userName": "User58",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 48,
+      "timestamp": "2024-11-25 08:49:12",
+      "action": "Delete",
+      "userName": "User90",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 49,
+      "timestamp": "2024-11-21 04:26:12",
+      "action": "Create",
+      "userName": "User28",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 50,
+      "timestamp": "2024-11-24 10:57:12",
+      "action": "Create",
+      "userName": "User32",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 51,
+      "timestamp": "2024-11-21 20:59:12",
+      "action": "Login",
+      "userName": "User34",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 52,
+      "timestamp": "2024-11-22 01:55:12",
+      "action": "Logout",
+      "userName": "User88",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 53,
+      "timestamp": "2024-11-24 23:08:12",
+      "action": "Update",
+      "userName": "User18",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 54,
+      "timestamp": "2024-11-21 22:57:12",
+      "action": "Logout",
+      "userName": "User42",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Viewed report"
+    },
+    {
+      "id": 55,
+      "timestamp": "2024-11-25 23:53:12",
+      "action": "View",
+      "userName": "User17",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 56,
+      "timestamp": "2024-11-19 21:23:12",
+      "action": "Create",
+      "userName": "User13",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 57,
+      "timestamp": "2024-11-20 07:58:12",
+      "action": "View",
+      "userName": "User83",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 58,
+      "timestamp": "2024-11-20 11:21:12",
+      "action": "Delete",
+      "userName": "User19",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 59,
+      "timestamp": "2024-11-20 23:07:12",
+      "action": "Login",
+      "userName": "User8",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 60,
+      "timestamp": "2024-11-25 15:08:12",
+      "action": "Update",
+      "userName": "User58",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 61,
+      "timestamp": "2024-11-22 10:48:12",
+      "action": "Logout",
+      "userName": "User1",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 62,
+      "timestamp": "2024-11-20 00:51:12",
+      "action": "Logout",
+      "userName": "User63",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Viewed report"
+    },
+    {
+      "id": 63,
+      "timestamp": "2024-11-21 07:37:12",
+      "action": "Delete",
+      "userName": "User5",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 64,
+      "timestamp": "2024-11-21 13:35:12",
+      "action": "Create",
+      "userName": "User43",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 65,
+      "timestamp": "2024-11-20 07:40:12",
+      "action": "Create",
+      "userName": "User11",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 66,
+      "timestamp": "2024-11-22 11:58:12",
+      "action": "Logout",
+      "userName": "User7",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 67,
+      "timestamp": "2024-11-24 12:23:12",
+      "action": "View",
+      "userName": "User46",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 68,
+      "timestamp": "2024-11-22 21:43:12",
+      "action": "Delete",
+      "userName": "User10",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 69,
+      "timestamp": "2024-11-21 02:31:12",
+      "action": "Login",
+      "userName": "User65",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 70,
+      "timestamp": "2024-11-20 13:25:12",
+      "action": "View",
+      "userName": "User36",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 71,
+      "timestamp": "2024-11-25 12:51:12",
+      "action": "View",
+      "userName": "User17",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 72,
+      "timestamp": "2024-11-25 01:06:12",
+      "action": "Update",
+      "userName": "User83",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 73,
+      "timestamp": "2024-11-24 20:51:12",
+      "action": "View",
+      "userName": "User83",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 74,
+      "timestamp": "2024-11-22 15:51:12",
+      "action": "Update",
+      "userName": "User33",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 75,
+      "timestamp": "2024-11-19 14:57:12",
+      "action": "Update",
+      "userName": "User12",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 76,
+      "timestamp": "2024-11-24 12:56:12",
+      "action": "Login",
+      "userName": "User98",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 77,
+      "timestamp": "2024-11-23 04:53:12",
+      "action": "Update",
+      "userName": "User54",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 78,
+      "timestamp": "2024-11-20 14:01:12",
+      "action": "Create",
+      "userName": "User77",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 79,
+      "timestamp": "2024-11-24 13:04:12",
+      "action": "Delete",
+      "userName": "User1",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 80,
+      "timestamp": "2024-11-23 16:10:12",
+      "action": "Create",
+      "userName": "User18",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 81,
+      "timestamp": "2024-11-23 11:58:12",
+      "action": "Login",
+      "userName": "User90",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 82,
+      "timestamp": "2024-11-24 14:07:12",
+      "action": "Update",
+      "userName": "User79",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 83,
+      "timestamp": "2024-11-25 15:16:12",
+      "action": "Update",
+      "userName": "User36",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 84,
+      "timestamp": "2024-11-23 23:07:12",
+      "action": "View",
+      "userName": "User65",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 85,
+      "timestamp": "2024-11-22 13:01:12",
+      "action": "Create",
+      "userName": "User39",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 86,
+      "timestamp": "2024-11-22 15:19:12",
+      "action": "Update",
+      "userName": "User100",
+      "userRole": "Editor",
+      "status": "Failed",
+      "details": "Viewed report"
+    },
+    {
+      "id": 87,
+      "timestamp": "2024-11-21 06:35:12",
+      "action": "Delete",
+      "userName": "User55",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 88,
+      "timestamp": "2024-11-25 22:50:12",
+      "action": "Update",
+      "userName": "User82",
+      "userRole": "Viewer",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 89,
+      "timestamp": "2024-11-23 09:53:12",
+      "action": "Delete",
+      "userName": "User56",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 90,
+      "timestamp": "2024-11-23 05:15:12",
+      "action": "Logout",
+      "userName": "User24",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Deleted a record"
+    },
+    {
+      "id": 91,
+      "timestamp": "2024-11-20 15:17:12",
+      "action": "Login",
+      "userName": "User26",
+      "userRole": "Contributor",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 92,
+      "timestamp": "2024-11-25 21:00:12",
+      "action": "Update",
+      "userName": "User49",
+      "userRole": "Editor",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 93,
+      "timestamp": "2024-11-21 16:47:12",
+      "action": "Logout",
+      "userName": "User88",
+      "userRole": "Admin",
+      "status": "Failed",
+      "details": "Failed login attempt"
+    },
+    {
+      "id": 94,
+      "timestamp": "2024-11-22 23:38:12",
+      "action": "Create",
+      "userName": "User99",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Logged out successfully"
+    },
+    {
+      "id": 95,
+      "timestamp": "2024-11-20 23:06:12",
+      "action": "Login",
+      "userName": "User31",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 96,
+      "timestamp": "2024-11-23 18:07:12",
+      "action": "Update",
+      "userName": "User44",
+      "userRole": "Admin",
+      "status": "Success",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 97,
+      "timestamp": "2024-11-23 04:50:12",
+      "action": "View",
+      "userName": "User91",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Accessed dashboard"
+    },
+    {
+      "id": 98,
+      "timestamp": "2024-11-25 06:32:12",
+      "action": "Update",
+      "userName": "User82",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Created a new entry"
+    },
+    {
+      "id": 99,
+      "timestamp": "2024-11-21 06:33:12",
+      "action": "Update",
+      "userName": "User38",
+      "userRole": "Viewer",
+      "status": "Failed",
+      "details": "Updated user profile"
+    },
+    {
+      "id": 100,
+      "timestamp": "2024-11-19 16:47:12",
+      "action": "Login",
+      "userName": "User44",
+      "userRole": "Contributor",
+      "status": "Success",
+      "details": "Failed login attempt"
     }
   ]
 }
