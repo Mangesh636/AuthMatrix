@@ -10,25 +10,21 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
 ## Introduction
 
-This project is part of an academic assignment to demonstrate [key concepts, skills, or technologies used].  
-[Provide a brief description of the project, its goals, and its scope.]
+This project is part of an internship (interview) assignment which primarly focuses on Frontend on the application.
 
 ---
 
 ## Features
 
-- [Feature 1: Brief description]
-- [Feature 2: Brief description]
-- [Feature 3: Brief description]
-- [Optional: Add screenshots or diagrams to enhance understanding]
+- Add User, Edit User, Delete User, Assign Role
+- Add Role, Edit Role, Delete Role, Assign Permissions
+- Add Permissions, Delete Permissions
+- Export Activity Logs to .csv format
 
 ---
 
@@ -68,7 +64,4 @@ This project is part of an academic assignment to demonstrate [key concepts, ski
    npm run json-server
    ```
 
-5. Open Browser:
-   ```
-   http://localhost:3000
-   ```
+5. Open Browser: http://localhost:3000
