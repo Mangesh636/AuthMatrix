@@ -20,3 +20,30 @@ export const RegisterSchema = z.object({
     message: "Password should be of minimum 6 characters.",
   }),
 });
+
+export const UserSchema = z.object({
+  name: z.string().min(1, {
+    message: "Name is required",
+  }),
+  email: z.string().email({
+    message: "Email is required.",
+  }),
+  role: z.string().min(1, {
+    message: "Please assign a role",
+  }),
+  status: z.string().min(1, {
+    message: "Please choose a status.",
+  }),
+});
+
+export const PermissionSchema = z.object({
+  key: z.string().min(1, {
+    message: "Permission Name is Required",
+  }),
+  label: z.string().min(1, {
+    message: "Permission Label is Required",
+  }),
+  description: z.string().min(1, {
+    message: "Permission Description is Required",
+  }),
+});

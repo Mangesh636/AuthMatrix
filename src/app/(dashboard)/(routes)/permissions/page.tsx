@@ -8,12 +8,11 @@ import { Separator } from "@/components/ui/separator";
 
 import { PermissionProps } from "@/interface";
 import { Heading } from "@/components/common/heading";
-import { DataTable } from "@/components/permissions/data-table";
-import { TableColumns } from "@/components/permissions/table-columns";
-import { ActionBtn } from "@/components/common/action-btn";
-import { RiAddFill } from "react-icons/ri";
+import { PermissionsDataTable } from "@/components/permissions/PermissionsDataTable";
+import { PermissionsTableColumns } from "@/components/permissions/PermissionTableColumns";
+import { PermissionAddModal } from "@/components/permissions/PermissionAddModal";
 
-export default function Permissions() {
+export default function PermissionsPage() {
   const [data, setData] = React.useState<PermissionProps[]>([]);
 
   React.useEffect(() => {
@@ -36,16 +35,12 @@ export default function Permissions() {
           label="Manage Permissions"
           className="text-3xl font-medium text-blue-600"
         />
-        <ActionBtn
-          label="Add Permission"
-          icon={RiAddFill}
-          className="max-w-44"
-        />
+        <PermissionAddModal />
       </div>
 
       <Separator className="h-0.5 rounded-full" />
       {/* Data Table */}
-      <DataTable columns={TableColumns} data={data} />
+      <PermissionsDataTable columns={PermissionsTableColumns} data={data} />
     </div>
   );
 }

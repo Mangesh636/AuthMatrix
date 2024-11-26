@@ -8,36 +8,42 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 import { Button } from "../ui/button";
 
-import { RolesProps } from "@/interface";
+import { PermissionProps } from "@/interface";
+import useDeletePermission from "@/hooks/useDeletePermission";
 
-export const TableColumns: ColumnDef<RolesProps>[] = [
+export const PermissionsTableColumns: ColumnDef<PermissionProps>[] = [
   {
-    accessorKey: "id",
+    accessorKey: "label",
     header: ({ column }) => {
       return (
         <Button
           variant={"ghost"}
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
-          Sr.No
+          Permission Label
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },
   },
   {
-    accessorKey: "roleName",
-    header: "Role Name",
+    accessorKey: "key",
+    header: "Permission Key",
+  },
+  {
+    accessorKey: "description",
+    header: "Permission Description",
   },
   {
     id: "actions",
     header: "Actions",
-    cell: () => {
+    cell: ({ row }) => {
+      const permission = row.original;
+      const { deletePermission } = useDeletePermission();
       return (
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -47,9 +53,9 @@ export const TableColumns: ColumnDef<RolesProps>[] = [
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
-            <DropdownMenuItem onClick={() => {}}>Edit</DropdownMenuItem>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem onClick={() => {}}>Delete</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => deletePermission(permission.id)}>
+              Delete
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       );

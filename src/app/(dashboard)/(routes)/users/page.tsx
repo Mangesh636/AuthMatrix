@@ -7,10 +7,10 @@ import toast from "react-hot-toast";
 import { Separator } from "@/components/ui/separator";
 
 import { Heading } from "@/components/common/heading";
-import { DataTable } from "@/components/users/data-table";
-import { TableColumns } from "@/components/users/table-columns";
+import { UserDataTable } from "@/components/users/UserDataTable";
+import { UserTableColumns } from "@/components/users/UserTableColumns";
 import { UserProps } from "@/interface";
-import { UserModal } from "@/components/users/user-modal";
+import { UserAddModal } from "@/components/users/UserAddModal";
 
 export default function Users() {
   const [data, setData] = React.useState<UserProps[]>([]);
@@ -35,12 +35,12 @@ export default function Users() {
           label="Manage Users"
           className="text-3xl font-medium text-blue-600"
         />
-        <UserModal />
+        <UserAddModal />
       </div>
 
       <Separator className="h-0.5 rounded-full" />
       {/* Data Table */}
-      <DataTable columns={TableColumns} data={data} />
+      <UserDataTable columns={UserTableColumns} data={data} />
     </div>
   );
 }

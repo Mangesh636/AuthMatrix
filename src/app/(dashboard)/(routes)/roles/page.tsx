@@ -7,10 +7,10 @@ import toast from "react-hot-toast";
 import { Separator } from "@/components/ui/separator";
 
 import { Heading } from "@/components/common/heading";
-import { DataTable } from "@/components/roles/data-table";
-import { TableColumns } from "@/components/roles/table-columns";
+import { RolesDataTable } from "@/components/roles/RolesDataTable";
+import { RolesTableColumns } from "@/components/roles/RolesTableColumns";
 import { RolesProps } from "@/interface";
-import { ActionBtn } from "@/components/common/action-btn";
+import { ActionBtn } from "@/components/common/ActionBtn";
 import { RiAddFill } from "react-icons/ri";
 
 export default function Logs() {
@@ -41,7 +41,7 @@ export default function Logs() {
 
       <Separator className="h-0.5 rounded-full" />
       {/* Data Table */}
-      <DataTable columns={TableColumns} data={data} />
+      <RolesDataTable columns={RolesTableColumns} data={data} />
     </div>
   );
 }

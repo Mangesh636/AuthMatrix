@@ -15,40 +15,50 @@ const formatTimestamp = (timestamp: string) => {
   });
 };
 
-export const TableColumns: ColumnDef<LogProps>[] = [
+export const LogsTableColumns: ColumnDef<LogProps>[] = [
   {
-    accessorKey: "id",
+    accessorKey: "userName",
     header: ({ column }) => {
       return (
         <Button
           variant={"ghost"}
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
-          Sr.No
+          User Name
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },
   },
   {
-    accessorKey: "user.name",
-    header: "Name",
-  },
-  {
-    accessorKey: "user.role",
-    header: "User Role",
-  },
-  {
-    accessorKey: "user.role",
+    accessorKey: "userRole",
     header: "User Role",
   },
   {
     accessorKey: "action",
-    header: "Action",
+    header: "User Action",
+  },
+  {
+    accessorKey: "status",
+    header: "Status",
+  },
+  {
+    accessorKey: "details",
+    header: "Action details",
   },
   {
     accessorKey: "timestamp",
-    header: "Time Stamp",
+    header: ({ column }) => {
+      return (
+        <Button
+          variant={"ghost"}
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Time Stamp
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      );
+    },
     cell: ({ row }) => formatTimestamp(row.getValue("timestamp")),
   },
 ];

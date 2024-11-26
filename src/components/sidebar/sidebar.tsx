@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   RiDashboardLine,
   RiFilePaper2Line,
@@ -14,7 +14,7 @@ import {
 } from "react-icons/ri";
 
 import { cn } from "@/lib/utils";
-import { ActionBtn } from "../common/action-btn";
+import { ActionBtn } from "../common/ActionBtn";
 
 const SidebarRoutes = [
   {
@@ -46,6 +46,7 @@ const SidebarRoutes = [
 
 export const Sidebar = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <div className="flex h-full flex-col space-y-4 bg-gray-100 py-4 text-black">
@@ -91,7 +92,7 @@ export const Sidebar = () => {
           <ActionBtn
             label="Logout"
             icon={RiLogoutCircleRLine}
-            onClick={() => {}}
+            onClick={() => router.push("/")}
           />
         </div>
       </div>
