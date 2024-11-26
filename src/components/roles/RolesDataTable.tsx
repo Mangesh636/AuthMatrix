@@ -43,7 +43,7 @@ interface DataTableProps<TData, TValue> {
   data: TData[];
 }
 
-export const DataTable = <TData, TValue>({
+export const RolesDataTable = <TData, TValue>({
   columns,
   data,
 }: DataTableProps<TData, TValue>) => {
@@ -75,7 +75,7 @@ export const DataTable = <TData, TValue>({
       <div className="flex items-center py-4">
         {/* Search */}
         <Input
-          placeholder="Filter by Role name..."
+          placeholder="Search by Role name..."
           value={
             (table.getColumn("roleName")?.getFilterValue() as string) ?? ""
           }

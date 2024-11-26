@@ -24,7 +24,7 @@ const emailData = [
 
 export const VerificationCard = () => {
   return (
-    <Card className="flex h-fit w-[550px] flex-col gap-4">
+    <Card className="flex h-fit flex-col gap-4 sm:w-[370px] md:w-full">
       <CardHeader className="items-start">
         <CardTitle>Email Verified</CardTitle>
       </CardHeader>
@@ -40,7 +40,7 @@ export const VerificationCard = () => {
             <div
               key={index.label}
               style={{ width: `${index.percentage}%` }}
-              className={cn("animate-grow origin-left", index.color)}
+              className={cn("origin-left animate-grow", index.color)}
             />
           ))}
         </div>

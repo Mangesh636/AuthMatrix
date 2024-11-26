@@ -3,7 +3,6 @@
 import { Menu } from "lucide-react";
 import * as VisuallyHidden from "@radix-ui/react-visually-hidden";
 
-import { Button } from "../ui/button";
 import {
   Sheet,
   SheetContent,
@@ -11,6 +10,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../ui/sheet";
+import { Button } from "../ui/button";
 
 import { Sidebar } from "./sidebar";
 import { ClientOnly } from "../client-only";

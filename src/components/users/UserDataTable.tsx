@@ -38,15 +38,15 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 
-interface DataTableProps<TData, TValue> {
+interface UserDataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
 }
 
-export const DataTable = <TData, TValue>({
+export const UserDataTable = <TData, TValue>({
   columns,
   data,
-}: DataTableProps<TData, TValue>) => {
+}: UserDataTableProps<TData, TValue>) => {
   const [sorting, setSorting] = React.useState<SortingState>([]);
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     [],
@@ -75,7 +75,7 @@ export const DataTable = <TData, TValue>({
       <div className="flex items-center py-4">
         {/* Search */}
         <Input
-          placeholder="Filter by name..."
+          placeholder="Search by name..."
           value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
           onChange={(event) =>
             table.getColumn("name")?.setFilterValue(event.target.value)
@@ -105,7 +105,7 @@ export const DataTable = <TData, TValue>({
                       column.toggleVisibility(!!value)
                     }
                   >
-                    {column.id === "id" ? "Sr.No" : column.id}
+                    {column.id === "id" ? "Id.No" : column.id}
                   </DropdownMenuCheckboxItem>
                 );
               })}

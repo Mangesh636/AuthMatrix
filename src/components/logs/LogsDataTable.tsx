@@ -42,7 +42,7 @@ interface DataTableProps<TData, TValue> {
   data: TData[];
 }
 
-export const DataTable = <TData, TValue>({
+export const LogsDataTable = <TData, TValue>({
   columns,
   data,
 }: DataTableProps<TData, TValue>) => {
@@ -99,7 +99,7 @@ export const DataTable = <TData, TValue>({
                       : column.id === "user_name"
                         ? "User Name"
                         : column.id === "user_role"
-                          ? "User Name"
+                          ? "User Role"
                           : column.id}
                   </DropdownMenuCheckboxItem>
                 );
