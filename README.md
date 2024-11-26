@@ -63,6 +63,12 @@ This project is part of an academic assignment to demonstrate [key concepts, ski
    ```
 
 4. Run the JSON server:
+
    ```bash
    npm run json-server
+   ```
+
+5. Open Browser:
+   ```
+   http://localhost:3000
    ```
