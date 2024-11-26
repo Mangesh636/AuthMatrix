@@ -65,3 +65,6 @@ This project is part of an internship (interview) assignment which primarly focu
    ```
 
 5. Open Browser: http://localhost:3000
+
+>   [!CAUTION]
+>   Created an initial Front-end UI for Role-Based Access Control application named AuthMatrix. This Project is still under development and the UI design and components will be changed and Back-end Logic will be added in 2-3 weeks.
